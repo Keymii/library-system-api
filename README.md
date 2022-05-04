@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project was created by Abhijat Bharadwaj in the year 2022.   
+This project was created in the year 2022.   
 This is a django REST framework based api which allows you to:  
 - see all the books in the library  
 - add new books to the list  
@@ -49,7 +49,7 @@ Though these fields can also be changed while adding the book
 
 ****
 
-`GET ` /'issued/
+`GET ` /issued/
 
 ****
 
