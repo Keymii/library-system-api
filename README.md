@@ -69,6 +69,7 @@ fields.
 issue/return page for book with accNo = *int*   
 
 Entry Format:   
+
     {
         'issued':true/false,
         'borrower': "borrower's name" (keep empty if issued=false)
