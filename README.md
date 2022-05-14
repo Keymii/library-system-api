@@ -104,3 +104,15 @@ will give a search result with books satisfying:
 - name containing "har" and  
 - author's name containing "rowl"
 
+
+### Current status of Database
+
+Right now, database file (db.sqlite3) already stores some data. If you wish to use the API with empty database:
+- delete the db.sqlite3 file
+- delete the migrations folder present inside the base folder
+- then run the following commands on the terminal/command prompt:
+
+    python manage.py makemigrations base
+    python manage.py migrate
+
+- then run the server. 
